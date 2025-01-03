@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdellah Nedjar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .box {
+            background-color: #555;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+        .box a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .footer {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Bienvenue sur le site Abdellah Nedjar</h1>
+        <p>Un site pour les étudiants en médecine</p>
+    </div>
+
+    <div class="content">
+        <div class="box"><a href="contact.html">Page de Contact</a></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Abdellah Nedjar</p>
+    </div>
+</body>
+</html
