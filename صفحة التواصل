@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Abdellah Nedjar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .form-box {
+            background-color: #555;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: none;
+        }
+        .footer {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Contactez-moi</h1>
+        <p>Pour toute question, n'hésitez pas à m'envoyer un message.</p>
+    </div>
+
+    <div class="form-container">
+        <div class="form-box">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Votre Nom" required>
+                <input type="email" name="email" placeholder="Votre Email" required>
+                <textarea name="message" placeholder="Votre Message" rows="4" required></textarea>
+                <button type="submit" style="background-color: #444; color: #fff; padding: 10px; width: 100%;">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Abdellah Nedjar</p>
+    </div>
+</body>
+</html
